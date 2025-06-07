@@ -1,38 +1,30 @@
 <script setup lang="ts">
-import { useRouter, useRoute } from 'vue-router'
-
 import MessageIcon from '@/components/icons/MessageIcon.vue'
 import UserIcon from '@/components/icons/UserIcon.vue'
 import SettingsIcon from '@/components/icons/SettingsIcon.vue'
-
-const router = useRouter()
-const route = useRoute()
-
-const goTo = (path: string) => {
-    if (route.path !== path) router.push(path)
-}
-const isActive = (path: string) => route.path === path
 </script>
 <template>
     <div
-        class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 flex justify-around items-center py-2 shadow-inner z-10">
+        class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 flex justify-around items-center py-2 z-10">
         <!-- Trò chuyện -->
-        <div class="flex flex-col items-center" :class="isActive('/message') ? 'text-orange-500' : 'text-gray-400'"
-            @click="goTo('/message')">
+        <router-link to="/message" class="flex-1 flex flex-col items-center justify-center text-gray-400 text-center"
+            active-class="text-orange-500" exact-active-class="text-orange-500">
             <MessageIcon />
             <span class="text-xs font-medium">Trò chuyện</span>
-        </div>
+        </router-link>
+
         <!-- Trang chủ -->
-        <div class="flex flex-col items-center" :class="isActive('/') ? 'text-orange-500' : 'text-gray-400'"
-            @click="goTo('/')">
+        <router-link to="/" class="flex-1 flex flex-col items-center justify-center text-gray-400 text-center"
+            active-class="text-orange-500" exact-active-class="text-orange-500">
             <UserIcon />
             <span class="text-xs font-medium">Trang chủ</span>
-        </div>
+        </router-link>
+
         <!-- Cài đặt -->
-        <div class="flex flex-col items-center" :class="isActive('/settings') ? 'text-orange-500' : 'text-gray-400'"
-            @click="goTo('/settings')">
+        <router-link to="/settings" class="flex-1 flex flex-col items-center justify-center text-gray-400 text-center"
+            active-class="text-orange-500" exact-active-class="text-orange-500">
             <SettingsIcon />
             <span class="text-xs font-medium">Cài đặt</span>
-        </div>
+        </router-link>
     </div>
 </template>
