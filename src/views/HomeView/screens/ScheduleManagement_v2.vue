@@ -1,17 +1,14 @@
 <template>
     <div class="min-h-screen bg-white text-gray-900 px-4 pt-6 pb-24">
         <!-- Header -->
-        <div class="flex items-center space-x-2 mb-4">
-            <router-link to="/schedules">
-                <button>
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-                    </svg>
-                </button>
+        <div class="flex items-center mb-4">
+            <router-link to="/schedules" class="flex items-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
             </router-link>
-            <h1 class="text-xl font-bold">Lịch trình</h1>
+            <h1 class="text-lg font-bold">Lịch trình</h1>
         </div>
-
         <!-- Calendar -->
         <div class="border rounded-2xl overflow-hidden">
             <!-- Days of week -->
