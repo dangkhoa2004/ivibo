@@ -7,7 +7,8 @@
                 <p class="text-sm text-gray-400 -mt-1">Thứ hai</p>
                 <p class="text-sm text-gray-400">Tháng 10 2024</p>
             </div>
-            <button class="bg-orange-50 text-gray-900 px-4 py-2 rounded-xl text-sm font-bold">Tạo mới</button>
+            <button class="cursor-pointer bg-orange-50 text-gray-900 px-4 py-2 rounded-xl text-sm font-bold">Tạo
+                mới</button>
         </div>
 
         <!-- Date Selector -->
