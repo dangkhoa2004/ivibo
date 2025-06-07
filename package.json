@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rmdir /s /q node_modules\\.vite && rmdir /s /q dist",
     "dev:clean": "npm run clean && npm run dev",
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
