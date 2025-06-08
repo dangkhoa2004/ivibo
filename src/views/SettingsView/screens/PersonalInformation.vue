@@ -12,7 +12,8 @@
                     </router-link>
                     <h1 class="text-lg font-semibold">Sửa thông tin</h1>
                 </div>
-                <button @click="openConfirm" class="bg-orange-500 text-white px-4 py-1.5 rounded-xl text-sm font-bold">
+                <button @click="openConfirm"
+                    class="bg-orange-500 text-white px-4 py-1.5 rounded-xl text-sm font-bold cursor-pointer">
                     LƯU
                 </button>
             </div>
@@ -80,10 +81,11 @@
                     không?<br />
                 </p>
                 <div class="flex justify-center gap-4 mt-4">
-                    <button @click="cancel" class="flex-1 py-2 rounded-xl border font-semibold">
+                    <button @click="cancel" class="flex-1 py-2 rounded-xl border-1 font-semibold cursor-pointer">
                         Không
                     </button>
-                    <button @click="confirm" class="flex-1 py-2 rounded-xl bg-orange-500 text-white font-semibold">
+                    <button @click="confirm"
+                        class="flex-1 py-2 rounded-xl bg-orange-500 text-white font-semibold cursor-pointer">
                         Có
                     </button>
                 </div>
@@ -111,5 +113,6 @@ const cancel = () => {
 
 const confirm = () => {
     showConfirm.value = false
+    location.href = "/infomation"
 }
 </script>
