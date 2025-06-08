@@ -31,7 +31,7 @@
                             class="w-12 h-12 rounded-[10px] object-cover" />
                         <div>
                             <p class="font-semibold text-base">Hữu Trần</p>
-                            <p class="text-[16px] text-gray-900 leading-normal">
+                            <p class="text-sm text-gray-500 truncate max-w-[200px]">
                                 Sửa Trò chuyện Hữu Trần Đừng lo lắng. Hãy nói anh biết...
                             </p>
                         </div>
@@ -48,7 +48,7 @@
                             class="w-12 h-12 rounded-[10px] object-cover" />
                         <div>
                             <p class="font-semibold text-base">Đăng Khoa</p>
-                            <p class="text-[16px] text-gray-900 leading-normal">
+                            <p class="text-sm text-gray-500 truncate max-w-[200px]">
                                 Lo chạy deadline đi mày ơi. Anh...
                             </p>
                         </div>
