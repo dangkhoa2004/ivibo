@@ -89,7 +89,7 @@
                         <span>📍 Văn phòng chính</span>
                     </div>
                     <div class="flex items-center text-sm space-x-2 mt-1">
-                        <img src="@/assets/img/avt1.jpg" alt="Avatar" class="w-5 h-5 rounded-full" />
+                        <img src="@/assets/img/anh_Huu.png" alt="Avatar" class="w-5 h-5 rounded-full" />
                         <span>Hữu Trần</span>
                     </div>
                 </div>
