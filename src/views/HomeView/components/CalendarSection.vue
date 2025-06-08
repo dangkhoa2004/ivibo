@@ -2,7 +2,9 @@
   <div class="mt-6 px-4">
     <div class="flex justify-between items-center mb-3">
       <h2 class="text-lg font-bold">Lịch</h2>
-      <button class="text-sm text-orange-700 font-medium">Xem thêm</button>
+      <button class="text-sm text-orange-700 font-semibold hover:text-orange-800 active:scale-95 transition">
+        Xem thêm
+      </button>
     </div>
 
     <div class="overflow-x-auto scrollbar-hide">
