@@ -10,21 +10,21 @@ import SettingsIcon from '@/components/icons/SettingsIcon.vue'
         <router-link to="/message" class="flex-1 flex flex-col items-center justify-center text-gray-400 text-center"
             active-class="text-orange-500" exact-active-class="text-orange-500">
             <MessageIcon />
-            <span class="text-xs font-medium">Trò chuyện</span>
+            <span class="text-sm font-medium text-gray-800 group-hover:text-orange-500 transition">Trò chuyện</span>
         </router-link>
 
         <!-- Trang chủ -->
         <router-link to="/" class="flex-1 flex flex-col items-center justify-center text-gray-400 text-center"
             active-class="text-orange-500" exact-active-class="text-orange-500">
             <UserIcon />
-            <span class="text-xs font-medium">Trang chủ</span>
+            <span class="text-sm font-medium text-gray-800 group-hover:text-orange-500 transition">Trang chủ</span>
         </router-link>
 
         <!-- Cài đặt -->
         <router-link to="/settings" class="flex-1 flex flex-col items-center justify-center text-gray-400 text-center"
             active-class="text-orange-500" exact-active-class="text-orange-500">
             <SettingsIcon />
-            <span class="text-xs font-medium">Cài đặt</span>
+            <span class="text-sm font-medium text-gray-800 group-hover:text-orange-500 transition">Cài đặt</span>
         </router-link>
     </div>
 </template>

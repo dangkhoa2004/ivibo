@@ -4,9 +4,9 @@
         <div class="flex-1 overflow-y-auto">
             <!-- Header -->
             <div class="flex items-center justify-between px-4 pt-6 pb-2 mb-3">
-                <span class="text-orange-500 font-medium cursor-pointer">Sửa</span>
-                <h1 class="text-base font-bold">Trò chuyện</h1>
-                <button class="cursor-pointer">
+                <span class="text-orange-600 font-medium cursor-pointer">Sửa</span>
+                <span class="text-sm font-medium text-gray-800">Trò chuyện</span>
+                <button class="cursor-pointer" aria-label="Tạo tin nhắn mới">
                     <WritingIcon />
                 </button>
             </div>
