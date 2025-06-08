@@ -27,7 +27,7 @@
                 <div
                     class="flex items-center justify-between p-3 rounded-xl hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center space-x-4">
-                        <img src="@/assets/img/anh_Huu.png" alt="Hữu Trần"
+                        <img src="@/assets/img/anh_Huu.avif" alt="Hữu Trần"
                             class="w-12 h-12 rounded-[10px] object-cover" />
                         <div>
                             <p class="font-semibold text-base">Hữu Trần</p>
@@ -44,7 +44,7 @@
                 <div
                     class="flex items-center justify-between p-3 rounded-xl hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center space-x-4">
-                        <img src="@/assets/img/owner.jpg" alt="Đăng Khoa"
+                        <img src="@/assets/img/owner.avif" alt="Đăng Khoa"
                             class="w-12 h-12 rounded-[10px] object-cover" />
                         <div>
                             <p class="font-semibold text-base">Đăng Khoa</p>

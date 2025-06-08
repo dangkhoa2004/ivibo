@@ -16,7 +16,7 @@
             <!-- Avatar -->
             <div class="flex flex-col items-center mt-6 mb-6">
                 <div class="relative w-24 h-24">
-                    <img src="@/assets/img/owner.jpg" alt="Avatar" class="w-24 h-24 object-cover rounded-full" />
+                    <img src="@/assets/img/owner.avif" alt="Avatar" class="w-24 h-24 object-cover rounded-full" />
                     <button class="absolute bottom-0 right-0 bg-orange-500 p-2 rounded-full shadow-md">
                         <PencialIcon />
                     </button>

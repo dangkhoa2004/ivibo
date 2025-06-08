@@ -14,7 +14,7 @@
             <!-- Card: Dự án -->
             <router-link to="/projects">
                 <div class="bg-white rounded-2xl overflow-hidden">
-                    <img src="@/assets/img/project.jpg" alt="Project" class="w-full h-36 object-cover rounded-t-2xl" />
+                    <img src="@/assets/img/project.avif" alt="Project" class="w-full h-36 object-cover rounded-t-2xl" />
                     <div class="flex items-center justify-between px-2 py-3">
                         <span class="font-medium text-sm">Dự án</span>
                         <span class="text-gray-400 text-3xl">›</span>
@@ -25,7 +25,7 @@
             <!-- Card: Công việc -->
             <router-link to="/jobs">
                 <div class="bg-white rounded-2xl overflow-hidden">
-                    <img src="@/assets/img/job.jpg" alt="Job" class="w-full h-36 object-cover rounded-t-2xl" />
+                    <img src="@/assets/img/job.avif" alt="Job" class="w-full h-36 object-cover rounded-t-2xl" />
                     <div class="flex items-center justify-between px-2 py-3">
                         <span class="font-medium text-sm">Công việc</span>
                         <span class="text-gray-400 text-3xl">›</span>

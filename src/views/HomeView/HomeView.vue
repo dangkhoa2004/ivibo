@@ -7,7 +7,7 @@
     <div class="flex-1 overflow-y-auto pt-[56px] pb-[64px]"> <!-- padding để không bị đè -->
       <!-- Banner -->
       <div>
-        <img src="@/assets/img/banner.jpg" alt="Banner" class="object-cover w-full h-full" />
+        <img src="@/assets/img/banner.avif" alt="Banner" class="object-cover w-full h-full" />
       </div>
 
       <!-- Section: Lịch -->

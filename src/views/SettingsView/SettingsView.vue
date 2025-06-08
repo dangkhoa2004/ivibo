@@ -7,7 +7,7 @@
 
       <!-- Avatar & User Info -->
       <div class="flex flex-col items-center mt-2 mb-6">
-        <img src="@/assets/img/owner.jpg" alt="Avatar" class="w-20 h-20 rounded-[32px] object-cover" />
+        <img src="@/assets/img/owner.avif" alt="Avatar" class="w-20 h-20 rounded-[32px] object-cover" />
         <p class="mt-3 text-xl font-bold">Đăng Khoa</p>
         <p class="text-sm text-gray-500">@orsi074</p>
       </div>

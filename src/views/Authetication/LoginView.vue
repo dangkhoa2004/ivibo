@@ -4,7 +4,7 @@
         <div class="flex-1 overflow-y-auto flex flex-col space-y-5">
             <!-- Logo -->
             <div class="flex justify-center">
-                <img src="@/assets/img/ouransoft_banner.jpg" alt="OURANSOFT" class="w-full h-[260px] object-contain" />
+                <img src="@/assets/img/ouransoft_banner.avif" alt="OURANSOFT" class="w-full h-[260px] object-contain" />
             </div>
 
             <!-- Form -->
@@ -43,9 +43,9 @@
                 <hr class="my-4 border-gray-200" />
                 <p class="text-center text-sm text-gray-500 mb-4">Đăng nhập bằng</p>
                 <div class="flex justify-center gap-6">
-                    <img src="@/assets/img/Google.webp" alt="Google" class="w-10 h-10" />
-                    <img src="@/assets/img/Apple.png" alt="Apple" class="w-10 h-10" />
-                    <img src="@/assets/img/Facebook.png" alt="Facebook" class="w-10 h-10" />
+                    <img src="@/assets/img/Google.avif" alt="Google" class="w-10 h-10" />
+                    <img src="@/assets/img/Apple.avif" alt="Apple" class="w-10 h-10" />
+                    <img src="@/assets/img/Facebook.avif" alt="Facebook" class="w-10 h-10" />
                 </div>
             </div>
         </div>

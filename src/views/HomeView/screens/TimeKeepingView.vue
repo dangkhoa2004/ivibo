@@ -16,7 +16,7 @@
         </div>
         <!-- Map chiếm toàn bộ phần còn lại -->
         <div class="relative flex-1 w-full z-0">
-            <img src="@/assets/img/mappoint.jpg" alt="Map" class="w-full h-full object-cover scale-[3]" />
+            <img src="@/assets/img/mappoint.avif" alt="Map" class="w-full h-full object-cover scale-[3]" />
             <!-- Pin vị trí ở giữa màn -->
             <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-full">
                 <svg class="w-10 h-10 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
@@ -46,7 +46,7 @@
 
                     <!-- Logo -->
                     <div class="flex justify-center my-4">
-                        <img src="@/assets/img/ouransoft_banner.jpg" alt="Logo" class="h-full" />
+                        <img src="@/assets/img/ouransoft_banner.avif" alt="Logo" class="h-full" />
                     </div>
 
                     <!-- Lịch sử chấm công -->
@@ -60,7 +60,7 @@
 
                     <!-- User -->
                     <div class="mt-4 flex items-center gap-2">
-                        <img src="@/assets/img/owner.jpg" alt="Avatar" class="w-8 h-8 rounded-full" />
+                        <img src="@/assets/img/owner.avif" alt="Avatar" class="w-8 h-8 rounded-full" />
                         <p class="font-semibold text-gray-800">Đăng Khoa</p>
                     </div>
 
