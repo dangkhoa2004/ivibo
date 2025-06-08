@@ -32,7 +32,7 @@
                         <div>
                             <p class="font-semibold text-base">Hữu Trần</p>
                             <p class="text-sm text-gray-500 truncate max-w-[200px]">
-                                Sửa Trò chuyện Hữu Trần Đừng lo lắng. Hãy nói anh biết...
+                                Đừng lo lắng. Hãy nói anh biết...
                             </p>
                         </div>
                     </div>
