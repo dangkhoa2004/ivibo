@@ -4,7 +4,7 @@
         <div class="flex-1 overflow-y-auto">
             <!-- Header -->
             <div class="flex items-center justify-between px-4 pt-6 pb-2 mb-3">
-                <span class="text-orange-600 font-medium cursor-pointer">Sửa</span>
+                <span class="text-orange-700 font-medium cursor-pointer">Sửa</span>
                 <span class="text-sm font-medium text-gray-800">Trò chuyện</span>
                 <button class="cursor-pointer" aria-label="Tạo tin nhắn mới">
                     <WritingIcon />
@@ -31,8 +31,8 @@
                             class="w-12 h-12 rounded-[10px] object-cover" />
                         <div>
                             <p class="font-semibold text-base">Hữu Trần</p>
-                            <p class="text-sm text-gray-500 truncate max-w-[200px]">
-                                Đừng lo lắng. Hãy nói anh biết...
+                            <p class="text-[16px] text-gray-900 leading-normal">
+                                Sửa Trò chuyện Hữu Trần Đừng lo lắng. Hãy nói anh biết...
                             </p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                             class="w-12 h-12 rounded-[10px] object-cover" />
                         <div>
                             <p class="font-semibold text-base">Đăng Khoa</p>
-                            <p class="text-sm text-gray-500 truncate max-w-[200px]">
+                            <p class="text-[16px] text-gray-900 leading-normal">
                                 Lo chạy deadline đi mày ơi. Anh...
                             </p>
                         </div>
