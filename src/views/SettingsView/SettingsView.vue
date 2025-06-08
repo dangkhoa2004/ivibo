@@ -36,7 +36,7 @@
         </router-link>
         <button @click="openConfirm"
           class="w-full text-left px-4 py-3 flex justify-between items-center hover:bg-gray-50 text-red-500 cursor-pointer">
-          <span>Đăng xuất</span>
+          Đăng xuất
         </button>
       </div>
     </div>
