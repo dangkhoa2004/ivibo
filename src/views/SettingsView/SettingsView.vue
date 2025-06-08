@@ -34,9 +34,9 @@
           <span>Trợ giúp & hỗ trợ</span>
           <span class="text-gray-400 text-3xl">›</span>
         </router-link>
-        <button @click="openConfirm"
+        <button @click="openConfirm" aria-label="Đăng xuất"
           class="w-full text-left px-4 py-3 flex justify-between items-center hover:bg-gray-50 text-red-500 cursor-pointer">
-          Đăng xuất
+          <span>Đăng xuất</span>
         </button>
       </div>
     </div>
